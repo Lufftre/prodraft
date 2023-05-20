@@ -1,0 +1,29 @@
+body
+{
+    background-color: #333;
+    color: white;
+    font-family: "Radiance","Noto Sans",sans-serif;
+
+}
+.heroes
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.hero {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+h1 { display: inline;}
+
+.hero > img {
+    /* width: 100%; */
+}
+
+.name-container { display: none;}
